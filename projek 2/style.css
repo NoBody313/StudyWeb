@@ -1,0 +1,222 @@
+body {
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.head-container {
+    width: auto;
+    height: 128px;
+    background-color: rgb(154, 154, 154, 0.5);
+}
+
+.header-right {
+    transition: 1s;
+    margin-top: 32px;
+    margin-right: 32px;
+    margin-left: 32px;
+    float: right;
+}
+
+.login {
+    padding-right: 32px;
+    padding-left: 32px;
+    line-height: 64px;
+    display: block;
+    font-weight: lighter;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.header-right:hover {
+    color: white;
+    background-color: black;
+}
+
+.img-logo {
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    height: 64px;
+    margin-right: 16px;
+    margin-left: 16px;
+    width: auto;
+}
+
+.top-wrapper {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1224500457?b=1&k=20&m=1224500457&s=612x612&w=0&h=oTvUxf6T0pKuQA5XRuePuTBxQTmB3BXWzpIl5u2iy44=);
+    background-size: cover;
+}
+
+.container {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.top-wrapper h1,
+h2,
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+
+.top-wrapper p {
+    color: white;
+    size: 8px;
+}
+
+.top-wrapper h1 {
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.top-wrapper h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 8px;
+    opacity: 0, 5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email {
+    background-color: white;
+    margin-top: 16px;
+    color: black;
+}
+
+.facebook {
+    margin-right: 12px;
+    background-color: blue;
+    color: white;
+}
+
+.fa {
+    margin-right: 16px;
+}
+
+.twitter {
+    background-color: rgb(16, 205, 205);
+    color: white;
+}
+
+.lesson-wrapper {
+    height: 164px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    margin-bottom: 128px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: black;
+}
+
+.text {
+    color: black;
+    text-align: center;
+}
+
+.desc {
+    color: black;
+}
+
+.lessons {
+    width: 100%;
+}
+
+.lesson {
+    margin-top: 16px;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+.lesson-icon {
+    margin: auto;
+    height: 64px;
+    width: 128px;
+    background-color: black;
+}
+
+.html-css {
+    color: white;
+    text-align: center;
+    height: 64px;
+    line-height: 64px;
+}
+
+.message-wrapper {
+    margin-top: 32px;
+}
+
+
+.text-heading {
+    text-align: center;
+}
+
+.btn-mulai-belajar {
+    background-color: aqua;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0px 10px rgb(111, 95, 255);
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-mulai-belajar:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.img-footer {
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    height: 64px;
+    margin-right: 16px;
+    margin-left: 16px;
+    width: auto;
+}
+
+.desc-footer {
+    margin-top: 64px;
+    color: black;
+    height: auto;
+    width: 500px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+

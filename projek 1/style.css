@@ -1,0 +1,101 @@
+.Header {
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.main {
+    background-color: white;
+    height: 800px;
+}
+
+.footer {
+    background-color: cornflowerblue;
+    height: 270px;
+}
+
+.header-logo {
+    float: left;
+}
+
+.logo {
+    padding: 20px 40px;
+    width: 64px;
+    height: 64px;
+}
+
+.header-list li {
+    padding: 38px 16px;
+    font-size: large;
+    list-style: none;
+    float: left;
+}
+
+.title {
+    font-size: 168px;
+    color: black;
+
+}
+
+.pelajaran {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 32px;
+    border-bottom: 2px solid;
+    padding-bottom: 24px;
+    font-size: 28px;
+}
+
+.content {
+    margin-top: 42px;
+    background-color: rgb(157, 209, 255);
+    height: 350px;
+}
+
+.content-item {
+    background-color: rgb(157, 209, 255);
+    float: left;
+    margin-left: 32px;
+    margin-right: 40px;
+}
+
+.form-content {
+    margin-left: 32px;
+    padding-top: 32px;
+    margin-right: 32px;
+    /* margin-bottom: 36px;
+    margin-left: 32px;
+    margin-top: 64px; */
+}
+
+.text-p {
+    border-top: 2px solid;
+}
+
+.titik {
+    color: red;
+}
+
+.sub-title {
+    font-size: 32px;
+}
+
+.footer {
+    margin-top: 512px;
+    height: 168px;
+}
+
+.footer-logo {
+    height: 32px;
+    width: 32px;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+
+    /* padding: 38px 28px;
+    margin-left: 64px; */
+    list-style: none;
+}
